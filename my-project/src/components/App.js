@@ -4,7 +4,11 @@ import "./User.css"
 
 
 const App = () => {
-
+    let users = [
+        { name: "mehdi", family: "rashidi", age: 17 },
+        { name: "ali", family: "dehghan", age: 19 },
+        { name: "reza", family: "mohammadi", age: 18 }
+    ]
 
     return (
         <div className="containerUser">
