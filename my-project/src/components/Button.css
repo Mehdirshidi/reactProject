@@ -1,0 +1,12 @@
+.add {
+    all: unset;
+    border-radius: 10px;
+    background: rgb(233, 160, 24);
+    padding: 15px 0;
+    width: 90%;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 10px 0;
+    cursor: pointer;
+}

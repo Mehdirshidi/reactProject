@@ -1,0 +1,17 @@
+.rowUser{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 2px solid gray;
+}
+
+.containerUser{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.rowUser h2{
+    margin: 10px;
+}

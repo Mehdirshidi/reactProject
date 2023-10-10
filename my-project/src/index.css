@@ -1,4 +1,6 @@
-* {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,8 +8,7 @@
 
 body {
     font-family: sans-serif;
-    background: #1d1d1d;
-    color: #ffffff;
+    text-align: center;
 }
 
 .container {
@@ -16,4 +17,43 @@ body {
     justify-content: center;
     height: 100vh;
     flex-wrap: wrap;
+}
+
+
+.row {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+}
+
+
+@media(max-width:1036px) {
+    .row {
+        margin-top: 50px;
+        flex-wrap: wrap;
+    }
+
+}
+
+.col {
+    padding: 1rem;
+}
+
+.btn {
+    margin: 20px;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 2px solid rgba(15, 8, 224, 0.876);
+    width: 80px;
+    height: 40px;
+    color: rgba(15, 8, 224, 0.876);
+    font-size: 1.2rem;
+    background: transparent;
+    transition: .4s ease-in;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: rgba(15, 8, 224, 0.876);
+    color: rgb(232, 232, 232);
 }
